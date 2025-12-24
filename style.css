@@ -48,7 +48,7 @@ header {
 }
 
 .logo img {
-    height: 60px;
+    height: 120px;
     width: auto;
     object-fit: contain;
 }
@@ -299,6 +299,12 @@ footer {
     .logo span {
         display: none; /* Keep header clean on small phones */
     }
+
+    .logo img {
+    height: 80px;
+    width: auto;
+    object-fit: contain;
+}
 }
 
 /* 1024px: Laptops */
@@ -324,4 +330,17 @@ footer {
     .hero h1 {
         font-size: 5rem;
     }
+
+
+
+}
+
+
+
+
+.circular-logo {
+  width: 100px;
+  height: 100px;
+  border-radius: 42%;
+  object-fit: cover; /* Ensures the image doesn't stretch */
 }
